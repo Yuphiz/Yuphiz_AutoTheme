@@ -18,11 +18,11 @@ select case wscript.arguments.count
       case 1
             select case wscript.arguments(0)
                   case "--RunByTaskWithoutUpdateTime"
-                        call runmain("RunByTaskWithoutUpdateTime",1)
+                        call runmain("RunByTaskWithoutUpdateTime",0)
                   case "--UpdateSchtasksTime"
-                        call runmain("UpdateSchtasksTime",1)
+                        call runmain("UpdateSchtasksTime",0)
                   case "--StayInBackgroundWithoutTips"
-                        call runmain("RunStayInBackgroundWithoutTips",1)
+                        call runmain("RunStayInBackgroundWithoutTips",0)
                   case "--Wallpaper"
                         call RunWallpaperOrNot()
             end select
@@ -47,13 +47,13 @@ sub ScriptLauncherUi()
             case Ask=""
                   Wscript.quit
             case Ask="1"
-                  call runmain("RunChangeByTask",1)
+                  call runmain("RunChangeByTask",0)
             case Ask="1.2"
-                  call runmain("DisableSchtasks",1)
+                  call runmain("DisableSchtasks",0)
             case Ask="2"
-                  call runmain("RunStayInBackground",01)
+                  call runmain("RunStayInBackground",0)
             case Ask="2.1"
-                  call runmain("RestartTheBackground",01)
+                  call runmain("RestartTheBackground",0)
             case Ask="2.2"
                   call runmain("KillTheBackgroundAndDisable",1)
             case Ask="2.3"
