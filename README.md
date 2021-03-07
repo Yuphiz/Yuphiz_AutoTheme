@@ -24,12 +24,14 @@
 
 ![image](https://github.com/Yuphiz/Yuphiz_AutoTheme/blob/main/demo%E9%A2%84%E8%A7%88%E5%9B%BE/%E4%BD%BF%E7%94%A8demo2_UWP%E5%90%AF%E5%8A%A8%E9%A1%B5%E9%A2%9C%E8%89%B2.gif)
 
-3.2 使用demo2_UWP启动页颜色
+3.2 使用demo2_UWP启动页颜色，自动切换启动页颜色，浅色主题用浅色，深色主题用深色，而不是现在无论深色浅色都是一片白色
+
 
 
 ![image](https://github.com/Yuphiz/Yuphiz_AutoTheme/blob/main/demo%E9%A2%84%E8%A7%88%E5%9B%BE/%E4%BD%BF%E7%94%A8demo3_%E5%9B%BE%E6%A0%87%E6%BC%94%E7%A4%BA.gif)
 
-3.3 使用demo3_图标演示
+3.3 使用demo3_图标演示，看任务栏和开始屏幕的图标，不过部分图标需要管理员权限才能替换
+
 
 
 ![image](https://github.com/Yuphiz/Yuphiz_AutoTheme/blob/main/demo%E9%A2%84%E8%A7%88%E5%9B%BE/%E4%BD%BF%E7%94%A8demo4_%E6%98%BE%E7%A4%BA%E5%99%A8%E4%BA%AE%E5%BA%A6%E5%AF%B9%E6%AF%94%E5%BA%A6%E6%A6%82%E5%BF%B5%E9%A2%84%E8%A7%88.gif)
