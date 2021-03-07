@@ -1,8 +1,0 @@
-运行脚本会生成两个备份文件
-UWPSplashScreenColor_默认备份_更新.json
-这个备份文件备份uwp启动界面颜色，可以随安装新的uwp而更新。
-日常备份用这个
-
-UWPSplashScreenColor_默认备份_原始.json
-这个备份文件只是第一次运行时所有的uwp启动界面颜色，之后安装的uwp不备份。
-是以防上一个备份文件更新出错的
